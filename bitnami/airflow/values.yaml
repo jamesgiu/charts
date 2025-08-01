@@ -501,6 +501,9 @@ extraEnvVars: []
 ## @param extraEnvVarsCM ConfigMap with extra environment variables for all the Airflow pods
 ##
 extraEnvVarsCM: ""
+## @param extraEnvVarsCMs ConfigMaps with extra environment variables for all the Airflow pods
+##
+extraEnvVarsCMs: []
 ## @param extraEnvVarsSecret Secret with extra environment variables for all the Airflow pods
 ##
 extraEnvVarsSecret: ""
